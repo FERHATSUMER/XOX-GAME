@@ -1,2 +1,0 @@
-# XOX-GAME
-XOX-GAME

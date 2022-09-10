@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1032749/7159/v/950/depositphotos_71591045-stock-illustration-tic-tac-toe-xo-game.jpg);
+    /* background-repeat: no-repeat; */
+    background-color: rgb(241, 224, 221);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+h1{
+    background-color: antiquewhite;
+    font-size: 4rem;
+}
+h1,h2{
+    margin-bottom: 5rem;
+}
+.game-container{
+    width: 30rem;
+    height: 30rem;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows:repeat(3 ,1fr);
+    border: 1px solid black;
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background: #fafafa;
+    user-select: none;
+}
+.block:hover{
+    border:1px solid rgb(179, 115, 115)
+}
+#error{
+    background-color: black;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    letter-spacing: 4px;
+    color:white;
+}
+
+#player{
+    background-color:black;
+    color: white;
+}
